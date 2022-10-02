@@ -33,12 +33,13 @@ void print_as_matrixes(int *array)
 int main()
 {
 
-    int array[]; // Initialize kiye
+    int array[40]; // Initialize kiye
     for (int i = 0; i < 40; i++)
     {
         array[i] = rand() % 10; // algo use kiye for random numbers (whatever)
     };
 
+    int matrixes[5][4][2]
     for (int a = 0; a < 5; a++)
     {
         for (int y = 0; y < 4; y++)
